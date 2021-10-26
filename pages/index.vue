@@ -3,7 +3,7 @@
     <header class="shadow py-4 sticky top-0 bg-white">
       <div class="container mx-auto px-4 flex justify-between items-center">
         <div>
-          <img src="~/static/logo.png" alt="Bol Touilleur" class="h-8">
+          <img src="/public/logo.png" alt="Bol Touilleur" class="h-8">
         </div>
         <div>
           <button class="block md:hidden" @click="mobileMenu = !mobileMenu">
@@ -30,7 +30,7 @@
     </header>
     <div id="top" class="py-32 container mx-auto px-4 text-center">
       <div>
-        <img src="~/static/big-picture.png" alt="Bol Touilleur" class="mx-auto">
+        <img src="/public/big-picture.png" alt="Bol Touilleur" class="mx-auto">
       </div>
       <div class="mt-16">
         <h3 class="text-primary font-bold text-4xl">
@@ -55,7 +55,7 @@
     </div>
     <div>
       <div class="py-28 container mx-auto px-4 text-center">
-        <img src="~/static/stars.png" alt="5 étoiles" class="mx-auto">
+        <img src="/public/stars.png" alt="5 étoiles" class="mx-auto">
         <p class="font-bold text-4xl">
           100% de nos clients satisfait*
         </p>
@@ -86,7 +86,7 @@
     </div>
     <div class="py-16">
       <div class="container mx-auto px-4 text-center">
-        <img src="~/static/logo.png" alt="Bol Touilleur" class="mx-auto h-8">
+        <img src="/public/logo.png" alt="Bol Touilleur" class="mx-auto h-8">
       </div>
     </div>
     <div v-show="fakePopup" class="fixed top-0 bottom-0 left-0 right-0 flex justify-center items-center bg-gray-700 bg-opacity-50">
