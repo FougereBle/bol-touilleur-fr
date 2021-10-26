@@ -102,6 +102,16 @@
         </button>
       </div>
     </div>
+    <div v-if="showCookies" class="fixed left-0 bottom-0 right-0 py-4 bg-primary text-white">
+      <div class="container flex justify-between items-center mx-auto px-4">
+        <div>
+          Ce site n'utilise aucun cookie. Notre business c'est les soupes, pas les cookies
+        </div>
+        <button class="bg-white text-primary px-8 py-3 font-bold" @click="showCookies = false">
+          C'est noté !
+        </button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -110,7 +120,8 @@ export default {
   data () {
     return {
       mobileMenu: false,
-      fakePopup: false
+      fakePopup: false,
+      showCookies: true
     }
   }
 }
