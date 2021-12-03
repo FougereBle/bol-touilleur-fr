@@ -3,7 +3,7 @@
     <header class="shadow py-4 sticky top-0 bg-white">
       <div class="container mx-auto px-4 flex justify-between items-center">
         <div>
-          <img src="logo.png" alt="Bol Touilleur" class="h-8">
+          <img src="/logo.png" alt="Bol Touilleur" class="h-8">
         </div>
         <div>
           <button class="block md:hidden" @click="mobileMenu = !mobileMenu">
@@ -266,7 +266,7 @@
                 <ul role="list" class="divide-y divide-gray-200">
                   <li class="flex py-6 px-4 sm:px-6">
                     <div class="flex-shrink-0">
-                      <img src="big-picture.png" alt="Front of men&#039;s Basic Tee in black." class="w-20 rounded-md">
+                      <img src="/big-picture.png" alt="Image" class="w-20 rounded-md">
                     </div>
 
                     <div class="ml-6 flex-1 flex flex-col">

@@ -3,7 +3,7 @@
     <header class="shadow py-4 sticky top-0 bg-white">
       <div class="container mx-auto px-4 flex justify-between items-center">
         <div>
-          <img src="logo.png" alt="Bol Touilleur" class="h-8">
+          <img src="/logo.png" alt="Bol Touilleur" class="h-8">
         </div>
         <div>
           <button class="block md:hidden" @click="mobileMenu = !mobileMenu">

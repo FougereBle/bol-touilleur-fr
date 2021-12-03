@@ -3,14 +3,16 @@
     <header class="shadow py-4 sticky top-0 bg-white">
       <div class="container mx-auto px-4 flex justify-between items-center">
         <div>
-          <img src="logo.png" alt="Bol Touilleur" class="h-8">
+          <img src="/logo.png" alt="Bol Touilleur" class="h-8">
         </div>
         <div>
           <button class="block md:hidden" @click="mobileMenu = !mobileMenu">
             MENU
           </button>
           <div class="justify-between items-center hidden md:flex">
-            <nuxt-link to="/" class="mr-8">Accueil</nuxt-link>
+            <nuxt-link to="/" class="mr-8">
+              Accueil
+            </nuxt-link>
           </div>
           <div v-show="mobileMenu" class="fixed top-0 right-0 bottom-0 left-0 z-50">
             <div class="fixed top-0 right-0 bottom-0 left-0 bg-gray-700 opacity-50" />
@@ -18,7 +20,9 @@
               <button class="mb-6 text-gray-600 text-sm" @click="mobileMenu = !mobileMenu">
                 Fermer
               </button>
-              <nuxt-link to="/" class="mr-8">Accueil</nuxt-link>
+              <nuxt-link to="/" class="mr-8">
+                Accueil
+              </nuxt-link>
             </div>
           </div>
         </div>
