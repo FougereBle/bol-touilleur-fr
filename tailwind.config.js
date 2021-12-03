@@ -8,5 +8,9 @@ module.exports = {
       primary: '#FE9738',
       'primary-light': '#FFE5CD'
     }
-  }
+  },
+  plugins: [
+    // ...
+    require('@tailwindcss/forms')
+  ]
 }

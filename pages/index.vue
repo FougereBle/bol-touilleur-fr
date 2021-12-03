@@ -67,7 +67,10 @@
           Je le veux !
         </h3>
         <p class="text-gray-600 mt-4">
-          Pour être alerté de l’arrivé de notre BolTouilleur, entrez votre adresse email.
+          <a href="/commander">Cliquez ici pour passer commande</a>.
+        </p>
+        <p class="text-gray-600 mt-4">
+          Pour être alerté des nouveautées de notre BolTouilleur, entrez votre adresse email.
         </p>
         <div class="mt-8 flex items-center mx-auto w-2/3">
           <input type="email" class="border bg-white rounded-none w-full py-3 px-6" placeholder="Email">
