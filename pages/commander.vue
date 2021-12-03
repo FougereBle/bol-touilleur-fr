@@ -43,7 +43,7 @@
             <div>
               <div>
                 <h2 class="text-lg font-medium text-gray-900">
-                  Information de contact
+                  Informations de contact
                 </h2>
 
                 <div class="mt-4">
@@ -56,7 +56,7 @@
 
               <div class="mt-10 border-t border-gray-200 pt-10">
                 <h2 class="text-lg font-medium text-gray-900">
-                  Information de livraison
+                  Informations de livraison
                 </h2>
 
                 <div class="mt-4 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-4">
