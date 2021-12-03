@@ -98,7 +98,7 @@
           MERCI !
         </h2>
         <p class="mt-6 text-gray-600">
-          Vous serez averti lors de la sortie du <strong>BolTouilleur</strong>.
+          Vous serez averti lors de nouveautés sur le <strong>BolTouilleur</strong>.
         </p>
         <button class="mt-6 px-8 py-4 bg-primary text-white font-bold rounded" @click="fakePopup = false">
           FERMER
